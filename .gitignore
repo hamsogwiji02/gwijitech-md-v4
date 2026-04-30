@@ -1,0 +1,8 @@
+node_modules
+session
+sessions
+package-lock.json
+.env
+.DS_Store
+*.log
+database/
