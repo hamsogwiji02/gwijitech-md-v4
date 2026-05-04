@@ -1,12 +1,9 @@
 // Owner number without @s.whatsapp.net
-global.owner = ['2547xxxxxxxx'] // put your number here
-global.botname = 'GWIJITECH-MD'
-global.prefix = '.' // change prefix here
+global.owner = [process.env.OWNER || '2547xxxxxxxx'] 
+global.botname = process.env.BOTNAME || 'GWIJITECH-MD'
+global.prefix = process.env.PREFIX || '.' 
+global.sessionId = process.env.SESSION_ID || 'GWIJITECH-MD~YourSessionIDHere'
 
-// Session ID - paste yours here after generating
-global.sessionId = 'GWIJITECH-MD~YourSessionIDHere'
-
-// Other settings
 global.mess = {
     owner: 'Owner only command!',
     group: 'Group only command!',
